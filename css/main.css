@@ -219,14 +219,14 @@ button {
 */
 .header {
   position: relative;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 0px;
+  margin-left: 0px;
   margin-bottom: 35px;
-  width: 960px;
-  height: 350px;
-  background: url("../img/header-bg.jpeg");
+  width: 1440px;
+  height: 461.7px;
+  background: url("file:///Users/aitibiki/Documents/GitHub/librairie-clapet/img/photon.png");
   background-size: cover;
-  background-position: center bottom;
+  background-position: cover;
   overflow: hidden;
 }
 
@@ -263,7 +263,7 @@ button {
 
 
 .header__nav {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #1a1a1a;
 }
 
 .nav-main__item {
@@ -441,7 +441,7 @@ button {
 * single
 */
 .page-single {
-  text-align: justify;
+  text-align: center;
 }
 
 .page-single__header {
