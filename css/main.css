@@ -164,6 +164,11 @@ button {
   display: block;
   color: inherit;
 }
+.tiff {
+display: flex;
+min-width: 50px
+}
+
 .link-block:hover {
   text-decoration: none;
 }
