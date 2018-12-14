@@ -666,3 +666,18 @@ min-width: 50px
   margin-top: 8%;
   margin-bottom: 8%;
 }
+.akissi {
+  object-fit: contain;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.Bitmap {
+  width: 280px;
+  height: 281px;
+  object-fit: contain;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.sapin{
+object-fit: contain;
+text-align: left;
+}
