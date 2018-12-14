@@ -5,10 +5,14 @@
 * -----------
 */
 
-body .Rectangle {
-  width: 1440px;
-  height: 56px;
-  background-color: #1a1a1a;
+body  {
+  /*max-width: 960px;*/
+  margin: 0 auto;
+  border-bottom: 5px solid #d9d9d9;
+  padding-bottom: 75px;
+  font-family: 'Montserrat', sans-serif;
+  /*font-weight: 400;*/
+  color: #303044;
 }
 
 
@@ -221,7 +225,7 @@ min-width: 50px
 }
 
 .chapo {
-  font-size: 20px;
+  font-size: 15px;
   text-align:justify;
 }
 
@@ -245,18 +249,18 @@ min-width: 50px
 */
 .header {
   position: relative;
-  margin-right: 0px;
-  margin-left: 0px;
+/*  margin-right: auto;
+  margin-left: auto;*/
+  margin:0 auto;
   margin-bottom: 35px;
-  width: 1440px;
-  max-width: 100%;
-  height: 461.7px;
+  width: 100%;
+  height: 300px;
   background: url("file:///Users/aitibiki/Documents/GitHub/librairie-clapet/img/photon.png");
   background-size: cover;
-  background-position: cover;
+  background-position: center bottom;
   overflow: hidden;
+  text-align: center;
 }
-
 
 .header__content {
   display: block;
@@ -314,11 +318,27 @@ min-width: 50px
 */
 .separator {
   display: block;
-  margin: 50px auto;
-  width: 193.2px;
-  height: 51.8px;
+  margin: 100px auto;
+  width: 200px;
+  height: 1px;
+  transform: rotate(15deg);
   border: none;
   background-color: #d9d9d9;
+
+}
+.separator::before {
+  content:"";
+  display: block;
+  margin: 100px auto;
+  width: 200px;
+  height: 1px;
+  transform: rotate(-30deg);
+  border: none;
+  background-color: #d9d9d9;
+}
+.separator1.Line {
+  width: 1200px;
+  height: 1px;
 }
 
 
@@ -456,7 +476,7 @@ min-width: 50px
   grid-gap: 35px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  margin-bottom: 35px;
+  margin-bottom: 100px;
 }
 
 .news-list .news-list__news--main {
@@ -511,6 +531,10 @@ min-width: 50px
 .index-title {
   text-align: center;
   margin-bottom: 35px;
+  font-size: 600%;
+  margin-top: 3%;
+  font-weight: 1;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -522,27 +546,30 @@ min-width: 50px
   min-width: 500px;
 }
 .Jim-Lynch-est-n-en{
-  font-size: 20px;
+  font-size: 17px;
+  text-align: justify;
   color: #1a1a1a;
 }
 .im-Lynch-est-un-im{
-  font-size: 24px;
+  font-size: 17px;
   font-weight: 200;
+  text-align: justify;
   color: #e8a27d;
 }
 .Une-histoire-poigna{
-  font-size: 24px;
+  font-size: 17px;
   font-weight: 300;
+  text-align:justify;
   color: #d9926c;
 }
 .Christine-Ferniot{
-  font-size: 16px;
+  font-size: 11px;
   text-align: right;
   color: #1a1a1a;
 }
 .Entertainment-Weekly{
   font-family: WorkSans;
-  font-size: 16px;
+  font-size: 11px;
   text-align: right;
   color: #1a1a1a;
 }
@@ -552,8 +579,8 @@ min-width: 50px
   color: #1a1a1a;
 }
 .Il-fait-une-dcouver{
-  font-family: WorkSans, sans-serif;
-  font-size: 20px;
+  font-family: WorkSans-Regular, sans-serif;
+  font-size: 17px;
   text-align: justify;
   color: #1a1a1a;
 }
